@@ -25,13 +25,13 @@ const AddUserForm = (props) => {
             <input
                 type="text"
                 name="name"
-                value=""
+                value={user.name}
                 onChange={handleInputChange} />
             <label>UserNAme</label>
             <input
                 type="text"
                 name="username"
-                value=""
+                value={user.username}
                 onChange={handleInputChange} />
             <button>Add new user</button>
         </form>
