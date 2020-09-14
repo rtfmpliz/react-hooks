@@ -20,7 +20,7 @@ const App = () => {
         </div>
         <div className="flex-large">
           <h2>View USer</h2>
-          <UserTable users={users}/>
+          <UserTable users={user}/>
         </div>
       </div>
     </div>
